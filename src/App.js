@@ -21,7 +21,7 @@ class App extends Component {
   }
 
   async componentDidMount() {
-    const fetchResult = await fetch('http://jsonplaceholder.typicode.com/users');
+    const fetchResult = await fetch('https://jsonplaceholder.typicode.com/users');
     const users = await fetchResult.json();
     users.forEach(it => it.preetyName = it.name);
     this.setState({ monsters: users }, this.filterMylist);
