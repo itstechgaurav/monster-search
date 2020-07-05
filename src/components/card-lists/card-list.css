@@ -1,0 +1,37 @@
+.cards {
+    width: 100%;
+    padding: 10rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8rem 3rem;
+}
+
+.card {
+    padding: 1rem;
+    background-color: #e8e8e8;
+    transition: .3s;
+    border-radius: .3rem;
+    box-shadow: 0 0 10px rgba(0,0,0, .5);
+}
+
+.card:hover {
+    transform: scale(1.04);
+}
+
+.card:hover .card-title {
+    color: #071C46;
+}
+
+.card-img {
+    width: 100%;
+    margin-top: -10rem;
+    transition: .4s;
+}
+
+.card-title {
+    margin: 1rem 0;
+}
+
+.card-email {
+    opacity: .78;
+}

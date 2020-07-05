@@ -1,0 +1,22 @@
+
+
+input {
+    padding: 0rem 3rem;
+    margin-top: 5rem;
+    font-size: 4rem;
+    background-color: rgba(255, 255, 255, 0.842);
+    border: none;
+    outline: none;
+    text-align: center;
+    transition: .3s;
+}
+
+input:focus {
+    background-color: #fff;
+}
+
+.highlight {
+    display: inline-block;
+    background-color: dodgerblue;
+    color: white
+}

@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #267472, #071C46);
+}
+
+.appTitle {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 4rem;
+  color: #fff;
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
